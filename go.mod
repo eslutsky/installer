@@ -161,3 +161,9 @@ replace (
 	google.golang.org/genproto => google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013
 	google.golang.org/grpc => google.golang.org/grpc v1.29.1
 )
+
+replace github.com/ovirt/terraform-provider-ovirt => github.com/eslutsky/terraform-provider-ovirt v0.4.3-0.20210707111902-bc6c31a682ed
+
+replace github.com/ovirt/cluster-api-provider-ovirt => github.com/eslutsky/cluster-api-provider-ovirt v0.0.0-20210712105717-99d5941941e2
+
+replace github.com/openshift/cluster-api-provider-ovirt => github.com/eslutsky/cluster-api-provider-ovirt v0.0.0-20210712105717-99d5941941e2
