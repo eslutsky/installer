@@ -162,7 +162,7 @@ replace (
 	google.golang.org/grpc => google.golang.org/grpc v1.29.1
 )
 
-replace github.com/ovirt/terraform-provider-ovirt => github.com/eslutsky/terraform-provider-ovirt v0.4.3-0.20210707111902-bc6c31a682ed
+replace github.com/ovirt/terraform-provider-ovirt => github.com/eslutsky/terraform-provider-ovirt v0.4.3-0.20210713132307-fa26b14bca9e
 
 replace github.com/ovirt/cluster-api-provider-ovirt => github.com/eslutsky/cluster-api-provider-ovirt v0.0.0-20210712105717-99d5941941e2
 

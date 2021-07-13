@@ -520,6 +520,8 @@ github.com/eslutsky/cluster-api-provider-ovirt v0.0.0-20210712105717-99d5941941e
 github.com/eslutsky/cluster-api-provider-ovirt v0.0.0-20210712105717-99d5941941e2/go.mod h1:XnfUsLLjdZcchZZk2LGluGDjggXQNyF2mHqVc20RBcI=
 github.com/eslutsky/terraform-provider-ovirt v0.4.3-0.20210707111902-bc6c31a682ed h1:gUAXJX2Kw3QXXozE6ZM9rhOyLzxHXxTeBEw4wbSBKp4=
 github.com/eslutsky/terraform-provider-ovirt v0.4.3-0.20210707111902-bc6c31a682ed/go.mod h1:wnTGn9+USQJ51TMV5brymzjxUfmYmnOQZuNfYeuqky8=
+github.com/eslutsky/terraform-provider-ovirt v0.4.3-0.20210713132307-fa26b14bca9e h1:0DYAuPjiiK1pHcDk19wF8U1i9D7O0ztdfQd+/GeyHGE=
+github.com/eslutsky/terraform-provider-ovirt v0.4.3-0.20210713132307-fa26b14bca9e/go.mod h1:wnTGn9+USQJ51TMV5brymzjxUfmYmnOQZuNfYeuqky8=
 github.com/evanphx/json-patch v0.0.0-20190203023257-5858425f7550/go.mod h1:50XU6AFN0ol/bzJsmQLiYLvXMP4fmwYFNcr97nuDLSk=
 github.com/evanphx/json-patch v4.1.0+incompatible/go.mod h1:50XU6AFN0ol/bzJsmQLiYLvXMP4fmwYFNcr97nuDLSk=
 github.com/evanphx/json-patch v4.2.0+incompatible/go.mod h1:50XU6AFN0ol/bzJsmQLiYLvXMP4fmwYFNcr97nuDLSk=

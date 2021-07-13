@@ -30,8 +30,8 @@ const (
 	AutoPinningPin = "pin"
 	// AutoPinningResizeAndPin - will override the CPU and NUMA topology to fit the host,
 	// including pinning them to get maximal performance.
-	AutoPinningResizeAndPin       = "resize_and_pin"
-	BytesInMB                     = 1048576
+	AutoPinningResizeAndPin = "resize_and_pin"
+	BytesInMB               = 1048576
 )
 
 func resourceOvirtVM(c *providerContext) *schema.Resource {
@@ -109,7 +109,11 @@ func resourceOvirtVM(c *providerContext) *schema.Resource {
 				Type:         schema.TypeInt,
 				Optional:     true,
 				ValidateFunc: validation.IntAtLeast(1),
-				Description:  "in MB",
+				DiffSuppressFunc: func(k, old, new string, d *schema.ResourceData) bool {
+					// Suppress diff if new memory is not set
+					return new == "0"
+				},
+				Description: "in MB",
 			},
 			"cores": {
 				Type:     schema.TypeInt,
